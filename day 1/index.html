@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sound Board</title>
+</head>
+
+<body>
+    <div class="keys">
+        <div data-key="65" class="drumroll key">
+            <kbd>A</kbd>
+            <span class="sound">drumroll</span>
+        </div>
+        <div data-key="83" class="hihat key">
+            <kbd>S</kbd>
+            <span class="sound">Hihat</span>
+
+        </div>
+        <div data-key="68" class="pew key">
+            <kbd>D</kbd>
+            <span class="sound">Pew</span>
+
+        </div>
+        <div data-key="70" class="slap key">
+            <kbd>F</kbd>
+            <span class="sound">Slap</span>
+
+        </div>
+    </div>
+    <audio data-key="65" src="sounds/drumroll.wav"></audio>
+    <audio data-key="83" src="sounds/hihat.wav"></audio>
+    <audio data-key="68" src="sounds/pew.wav"></audio>
+    <audio data-key="70" src="sounds/slap.wav"></audio>
+    <script src="app.js"></script>
+</body>
+
+</html>
