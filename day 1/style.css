@@ -38,8 +38,11 @@ body {
   justify-content: center;
   flex-direction: column-reverse;
   border:1px solid #fff;
-
+  text-align:center;
+  transition:all 0.07s;
 }
 .playing{
-    
+    transform:scale(1.1);
+    border-color: darkred;
+
 }
